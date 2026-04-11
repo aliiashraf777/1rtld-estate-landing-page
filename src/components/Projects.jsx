@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { assets, projectsData } from "../assets/assets"
 import Heading from "./Heading"
 import { motion } from "framer-motion"
-
+ 
 const Projects = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
