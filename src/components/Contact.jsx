@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-
+ 
     const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
